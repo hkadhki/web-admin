@@ -12,6 +12,7 @@ import org.writer.webadmin.service.impl.AdminServiceImpl;
 
 @RestController
 @RequestMapping("/api/admin")
+@CrossOrigin(origins = "*")
 public class AdminController {
 
     private final AdminService adminService;
